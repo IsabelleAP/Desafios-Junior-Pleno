@@ -8,3 +8,6 @@ __pycache__/
 
 # Notebooks (Jupyter)
 .ipynb_checkpoints/
+
+# Sistema
+Thumbs.db
