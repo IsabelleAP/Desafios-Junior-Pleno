@@ -1,6 +1,6 @@
 # Desafios-Junior-Pleno
 
-## Desafio 01 - Consudo da API da Gupy 
+## Desafio 01 - Consumo da API da Gupy 
 Este script consome a API pública da Gupy para coletar vagas de emprego
 com base em palavras-chave e salva os resultados em arquivos JSON.
 
