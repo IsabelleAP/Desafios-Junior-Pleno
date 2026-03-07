@@ -6,22 +6,10 @@ com base em palavras-chave e salva os resultados em arquivos JSON.
 
 Os dados são armazenados na pasta `dados/vagas`.
 
-## Como executar
+### Como executar
+Clone o repositório (git clone <repo>) > Instale as dependências (pip install requests) > Execute o script (python3 main.py)
 
-1. Clone o repositório
-
-git clone <repo>
-
-2. Instale as dependências
-
-pip install requests
-
-3. Execute o script
-
-python3 main.py
-
-## API utilizada
-
+### API utilizada
 Endpoint:
 https://portal.api.gupy.io/api/job
 
