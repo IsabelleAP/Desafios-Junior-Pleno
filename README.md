@@ -6,6 +6,7 @@ Este script consome a API pública da Gupy para coletar vagas de emprego com bas
 Os dados estão armazenados na pasta `dados/vagas`.
 
 ### Estrutura do projeto
+```
 desafios-junior-pleno
 │
 ├─ src/
@@ -15,17 +16,18 @@ desafios-junior-pleno
 │
 └─ dados/
    └─ vagas/        # arquivos JSON gerados pelo script
+```
 
 ### Como executar
 1. Clone o repositório 
-git clone <repo>
+`git clone <repo>`
 2. Entre na pasta do projeto
 3. Instale as dependências 
-pip install requests
+`pip install requests`
 4. Execute o script 
-python3 src/main.py
+`python3 src/main.py`
 
-Após a execução, os arquivos JSON com as vagas coletadas serão gerados na pasta dados/vagas.
+Após a execução, os arquivos JSON com as vagas coletadas serão gerados na pasta `dados/vagas`.
 
 ### API utilizada
 Endpoint: https://portal.api.gupy.io/api/job
