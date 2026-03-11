@@ -1,6 +1,7 @@
 import requests
+from typing import List, Dict, Any
 
-def fetch_jobs(label):
+def fetch_jobs(label:str) -> List[Dict[str,Any]]:
     headers = {"User-Agent": "Mozilla/5.0"} # requisição como se fosse um navegador
     url = "https://portal.api.gupy.io/api/job" # endereço da api
 
