@@ -2,7 +2,9 @@ from api import fetch_jobs
 from storage import save_json
 
 def main():
-    labels = ["analista", "dados", "python"]
+    labels = ["analista", "dados", "python", "administração", 
+              "engenharia","desenvolvedor", "data",
+              "software", "ciência"]
 
     for label in labels:
         jobs = fetch_jobs(label)
