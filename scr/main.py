@@ -7,7 +7,7 @@ def main():
     for label in labels:
         jobs = fetch_jobs(label)
 
-        path = f"../dados/vagas/{label}.json"
+        path = f"../dados/vagas{label}.json"
 
         save_json(jobs, path)
 
