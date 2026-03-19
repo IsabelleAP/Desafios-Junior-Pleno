@@ -5,7 +5,8 @@ def main():
     labels = ["analista", "dados", "python", "administração", 
               "engenharia","desenvolvedor", "engenheiro",
               "cientista", "ciência", "bi", "analyst",
-              "engineer", "scientist"]
+              "engineer", "scientist", "business",
+              "devops", "back-end"]
 
     for label in labels:
         jobs = fetch_jobs(label)
